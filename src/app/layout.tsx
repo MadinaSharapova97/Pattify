@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pattify — Sewing Patterns for Every Maker",
   description:
-    "Discover ready-to-use sewing patterns for dresses, tops, skirts, and more.",
+    "Discover ready to use sewing patterns for dresses, tops, skirts, and more.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
