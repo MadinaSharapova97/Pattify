@@ -1,0 +1,100 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "patterns": "Patterns",
+    "categories": "Categories",
+    "aiPattern": "AI Pattern",
+    "help": "Help",
+    "search": "Search",
+    "favorites": "Favorites",
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "Hero": {
+    "badge": "Pattern Library",
+    "title": "Choose your favorite style,",
+    "highlight": "Get a pattern that fits you",
+    "description": "Discover a collection of free and premium sewing patterns designed to make your sewing journey easier.",
+    "browsePatterns": "Browse Patterns",
+    "howItWorks": "How It Works?",
+    "stats": {
+      "patterns": "Patterns",
+      "freePatterns": "Free Patterns",
+      "makers": "Makers"
+    }
+  },
+  "Features": {
+    "badge": "Why Pattify",
+    "title": "Everything you need to start sewing",
+    "description": "From choosing your favorite style to printing your pattern, Pattify makes sewing simple and enjoyable.",
+    "perfectFit": {
+      "title": "Perfect Fit",
+      "description": "Enter your measurements and get a sewing pattern designed to fit your size."
+    },
+    "a4a0": {
+      "title": "A4 & A0 Ready",
+      "description": "Download your pattern in printable A4 or A0 format and get started right away."
+    },
+    "easyToSew": {
+      "title": "Easy to Sew",
+      "description": "Clear pattern layouts and simple instructions help you turn your ideas into beautiful garments."
+    }
+  },
+      "Footer": {
+        "description": "Beautiful sewing patterns for every maker. Create, sew and bring your ideas to life.",
+    
+        "explore": "Explore",
+        "allPatterns": "All Patterns",
+        "freePatterns": "Free Patterns",
+        "newPatterns": "New Patterns",
+        "collections": "Collections",
+    
+        "help": "Help",
+        "howItWorks": "How It Works",
+        "faq": "FAQ",
+        "contactUs": "Contact Us",
+        "support": "Support",
+    
+        "stayInspired": "Stay Inspired",
+        "newsletterDescription": "Get new patterns, sewing tips and inspiration in your inbox.",
+        "emailPlaceholder": "Your email address",
+        "subscribe": "Subscribe",
+    
+        "privacyPolicy": "Privacy Policy",
+        "termsOfUse": "Terms of Use",
+    
+        "copyright": "All rights reserved."
+  },
+  
+    "FeaturedPatterns": {
+      "label": "Pattify Collection",
+      "title": "Featured Patterns",
+      "description": "Discover our favorite sewing patterns and find your next creative project.",
+      "viewAll": "View all patterns",
+      "viewPattern": "View Pattern",
+  
+      "patterns": {
+        "elegantDress": {
+          "name": "Elegant Dress",
+          "category": "Dresses",
+          "price": "Free"
+        },
+        "classicBlouse": {
+          "name": "Classic Blouse",
+          "category": "Tops",
+          "price": "$5"
+        },
+        "summerSkirt": {
+          "name": "Summer Skirt",
+          "category": "Skirts",
+          "price": "$4"
+        },
+        "oversizedShirt": {
+          "name": "Oversized Shirt",
+          "category": "Tops",
+          "price": "$6"
+        }
+      }
+    }
+  
+}

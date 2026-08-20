@@ -1,0 +1,92 @@
+{
+  "Navbar": {
+    "home": "Bosh sahifa",
+    "patterns": "Andozalar",
+    "categories": "Kategoriyalar",
+    "aiPattern": "AI andoza",
+    "help": "Yordam",
+    "search": "Qidirish",
+    "favorites": "Sevimlilar",
+    "signIn": "Kirish",
+    "signUp": "Ro‘yxatdan o‘tish"
+  },
+  "Hero": {
+    "badge": "Andozalar kutubxonasi",
+    "title": "Sevimli uslubingizni tanlang,",
+    "highlight": "sizga mos andozani toping",
+    "description": "Tikuvchilikni yanada osonlashtirish uchun yaratilgan bepul va premium andozalar to‘plamini kashf eting.",
+    "browsePatterns": "Andozalarni ko‘rish",
+    "howItWorks": "Qanday ishlaydi?",
+    "stats": {
+      "patterns": "Andozalar",
+      "freePatterns": "Bepul andozalar",
+      "makers": "Tikuvchilar"
+    }
+  },
+  "Features": {
+    "badge": "Nega Pattify?",
+    "title": "Tikishni boshlash uchun kerak bo‘lgan hamma narsa",
+    "description": "Sevimli uslubingizni tanlashdan boshlab andozani chop etishgacha Pattify tikuvchilikni sodda va yoqimli qiladi.",
+    "perfectFit": {
+      "title": "Mukammal moslik",
+      "description": "O‘lchovlaringizni kiriting va o‘lchamingizga mos tikuv andozasini oling."
+    },
+    "a4a0": {
+      "title": "A4 va A0 formatlari",
+      "description": "Andozangizni A4 yoki A0 formatida yuklab oling va darhol tikishni boshlang."
+    },
+    "easyToSew": {
+      "title": "Tikish oson",
+      "description": "Tushunarli andoza tuzilishi va sodda ko‘rsatmalar g‘oyalaringizni chiroyli kiyimlarga aylantirishga yordam beradi."
+    }
+  },
+  "Footer": {
+    "description": "Har bir tikuvchiga mos chiroyli andozalar. Yaratish, tikish va g‘oyalaringizni hayotga tatbiq eting.",
+    "explore": "Kashf eting",
+    "allPatterns": "Barcha andozalar",
+    "freePatterns": "Bepul andozalar",
+    "newPatterns": "Yangi andozalar",
+    "collections": "To‘plamlar",
+    "help": "Yordam",
+    "howItWorks": "Qanday ishlaydi",
+    "faq": "Ko‘p beriladigan savollar",
+    "contactUs": "Biz bilan bog‘lanish",
+    "support": "Qo‘llab-quvvatlash",
+    "stayInspired": "Ilhomlanib turing",
+    "newsletterDescription": "Yangi andozalar, tikuvchilik bo‘yicha maslahatlar va ilhomlarni emailingizga oling.",
+    "emailPlaceholder": "Email manzilingiz",
+    "subscribe": "Obuna bo‘lish",
+    "privacyPolicy": "Maxfiylik siyosati",
+    "termsOfUse": "Foydalanish shartlari",
+    "copyright": "Barcha huquqlar himoyalangan."
+  },
+  "FeaturedPatterns": {
+    "label": "Pattify kolleksiyasi",
+    "title": "Tanlangan andozalar",
+    "description": "Sevimli tikuv andozalarimizni kashf eting va keyingi ijodiy loyihangiz uchun ilhom toping.",
+    "viewAll": "Barcha andozalarni ko‘rish",
+    "viewPattern": "Andozani ko‘rish",
+    "patterns": {
+      "elegantDress": {
+        "name": "Zarif ko‘ylak",
+        "category": "Ko‘ylaklar",
+        "price": "Bepul"
+      },
+      "classicBlouse": {
+        "name": "Klassik bluzka",
+        "category": "Ustki kiyimlar",
+        "price": "$5"
+      },
+      "summerSkirt": {
+        "name": "Yozgi yubka",
+        "category": "Yubkalar",
+        "price": "$4"
+      },
+      "oversizedShirt": {
+        "name": "Oversize ko‘ylak",
+        "category": "Ustki kiyimlar",
+        "price": "$6"
+      }
+    }
+  }
+}

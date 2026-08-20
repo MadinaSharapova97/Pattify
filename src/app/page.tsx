@@ -1,9 +1,5 @@
-import Hero from "@/components/Hero/Hero";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <main>
-      <Hero />
-    </main>
-  );
+  redirect("/en");
 }
