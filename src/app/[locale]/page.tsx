@@ -10,8 +10,8 @@ export default function HomePage() {
       <Navbar />
       <main>
         <Hero />
-        <Features />
         <FeaturedPatterns />
+        <Features />
       </main>
       <Footer />
     </>

@@ -1,0 +1,38 @@
+export const patterns = [
+    {
+      id: 1,
+      key: "elegantDress",
+      image: "/images/patterns/img1.webp",
+      patternImage: "/images/patterns/pattern1.jpg",
+      difficulty:"beginner",
+      seamAllowance:"included",
+      price: 0,
+    },
+    {
+      id: 2,
+      key: "classicBlouse",
+      image: "/images/patterns/img2.webp",
+      patternImage: "/images/patterns/pattern2.jpg",
+      difficulty:"intermediate",
+      seamAllowance:"Not included",
+      price: 5,
+    },
+    {
+      id: 3,
+      key: "summerSkirt",
+      image: "/images/patterns/img3.jpg",
+      patternImage: "/images/patterns/pattern3.jpg",
+      difficulty:"advanced",
+      seamAllowance:"included",
+      price: 4,
+    },
+    {
+      id: 4,
+      key: "oversizedShirt",
+      image: "/images/patterns/img4.webp",
+      patternImage: "/images/patterns/pattern4.jpg",
+      difficulty:"intermediate",
+      seamAllowance:"Not included",
+      price: 6,
+    },
+  ];

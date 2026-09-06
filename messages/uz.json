@@ -16,12 +16,7 @@
     "highlight": "sizga mos andozani toping",
     "description": "Tikuvchilikni yanada osonlashtirish uchun yaratilgan bepul va premium andozalar to‘plamini kashf eting.",
     "browsePatterns": "Andozalarni ko‘rish",
-    "howItWorks": "Qanday ishlaydi?",
-    "stats": {
-      "patterns": "Andozalar",
-      "freePatterns": "Bepul andozalar",
-      "makers": "Tikuvchilar"
-    }
+    "howItWorks": "Qanday ishlaydi?"
   },
   "Features": {
     "badge": "Nega Pattify?",
@@ -40,32 +35,17 @@
       "description": "Tushunarli andoza tuzilishi va sodda ko‘rsatmalar g‘oyalaringizni chiroyli kiyimlarga aylantirishga yordam beradi."
     }
   },
-  "Footer": {
-    "description": "Har bir tikuvchiga mos chiroyli andozalar. Yaratish, tikish va g‘oyalaringizni hayotga tatbiq eting.",
-    "explore": "Kashf eting",
-    "allPatterns": "Barcha andozalar",
-    "freePatterns": "Bepul andozalar",
-    "newPatterns": "Yangi andozalar",
-    "collections": "To‘plamlar",
-    "help": "Yordam",
-    "howItWorks": "Qanday ishlaydi",
-    "faq": "Ko‘p beriladigan savollar",
-    "contactUs": "Biz bilan bog‘lanish",
-    "support": "Qo‘llab-quvvatlash",
-    "stayInspired": "Ilhomlanib turing",
-    "newsletterDescription": "Yangi andozalar, tikuvchilik bo‘yicha maslahatlar va ilhomlarni emailingizga oling.",
-    "emailPlaceholder": "Email manzilingiz",
-    "subscribe": "Obuna bo‘lish",
-    "privacyPolicy": "Maxfiylik siyosati",
-    "termsOfUse": "Foydalanish shartlari",
-    "copyright": "Barcha huquqlar himoyalangan."
-  },
   "FeaturedPatterns": {
     "label": "Pattify kolleksiyasi",
     "title": "Tanlangan andozalar",
     "description": "Sevimli tikuv andozalarimizni kashf eting va keyingi ijodiy loyihangiz uchun ilhom toping.",
     "viewAll": "Barcha andozalarni ko‘rish",
     "viewPattern": "Andozani ko‘rish",
+    "stats": {
+      "patterns": "Andozalar",
+      "freePatterns": "Bepul andozalar",
+      "makers": "Tikuvchilar"
+    },
     "patterns": {
       "elegantDress": {
         "name": "Zarif ko‘ylak",
@@ -88,5 +68,99 @@
         "price": "$6"
       }
     }
+  },
+  "PatternPage": {
+    "label": "Tikuv andozasi",
+    "customize": "Andozani sozlash",
+    "chooseOptions": "Variantlarni tanlang",
+    "breadcrumb": {
+      "patterns": "Andozalar"
+    },
+    "size": {
+      "title": "O‘lchamni tanlang",
+      "guide": "O‘lchamlar jadvali"
+    },
+    "format": {
+      "title": "Formatni tanlang"
+    },
+    "information": {
+      "title": "Andoza haqida",
+      "difficulty": "Qiyinlik darajasi",
+      "fileType": "Fayl turi",
+      "pages": "Sahifalar",
+      "seamAllowance": "Chok haqi",
+      "included": "Kiritilgan",
+      "notIncluded": "Kiritilmagan"
+    },
+    "difficulty": {
+      "beginner": "Boshlang‘ich",
+      "intermediate": "O‘rta"
+    },
+    "selected": {
+      "size": "O‘lcham",
+      "format": "Format"
+    },
+    "price": "Narxi",
+    "free": "Bepul",
+    "download": "Andozani yuklab olish",
+    "buy": "Andozani sotib olish",
+    "selectedNotice": "Siz tanlagan o‘lcham va format PDF faylga kiritiladi.",
+    "zoom": {
+      "zoomIn": "Kattalashtirish",
+      "zoomOut": "Kichraytirish"
+    },
+    "preview": {
+      "patternAlt": "andoza ko‘rinishi"
+    },
+    "notFound": {
+      "title": "Andoza topilmadi",
+      "description": "Siz qidirayotgan andoza mavjud emas."
+    },
+    "patterns": {
+      "elegantDress": {
+        "name": "Elegant ko‘ylak",
+        "category": "Ko‘ylaklar",
+        "description": "Kundalik kiyish uchun qulay va zamonaviy elegant ko‘ylak andozasi.",
+        "price": "Bepul"
+      },
+      "classicBlouse": {
+        "name": "Klassik bluzka",
+        "category": "Bluzkalar",
+        "description": "Toza siluet va nafis detallar bilan yaratilgan klassik bluzka andozasi.",
+        "price": "$5"
+      },
+      "summerSkirt": {
+        "name": "Yozgi yubka",
+        "category": "Yubkalar",
+        "description": "Issiq kunlar uchun mos, tikilishi oson va yengil yozgi yubka andozasi.",
+        "price": "$4"
+      },
+      "oversizedShirt": {
+        "name": "Oversized ko‘ylak",
+        "category": "Ko‘ylaklar",
+        "description": "Zamonaviy va keng bichimli oversized ko‘ylak andozasi.",
+        "price": "$6"
+      }
+    }
+  },
+  "Footer": {
+    "description": "Har bir tikuvchiga mos chiroyli andozalar. Yaratish, tikish va g‘oyalaringizni hayotga tatbiq eting.",
+    "explore": "Kashf eting",
+    "allPatterns": "Barcha andozalar",
+    "freePatterns": "Bepul andozalar",
+    "newPatterns": "Yangi andozalar",
+    "collections": "To‘plamlar",
+    "help": "Yordam",
+    "howItWorks": "Qanday ishlaydi",
+    "faq": "Ko‘p beriladigan savollar",
+    "contactUs": "Biz bilan bog‘lanish",
+    "support": "Qo‘llab-quvvatlash",
+    "stayInspired": "Ilhomlanib turing",
+    "newsletterDescription": "Yangi andozalar, tikuvchilik bo‘yicha maslahatlar va ilhomlarni emailingizga oling.",
+    "emailPlaceholder": "Email manzilingiz",
+    "subscribe": "Obuna bo‘lish",
+    "privacyPolicy": "Maxfiylik siyosati",
+    "termsOfUse": "Foydalanish shartlari",
+    "copyright": "Barcha huquqlar himoyalangan."
   }
 }

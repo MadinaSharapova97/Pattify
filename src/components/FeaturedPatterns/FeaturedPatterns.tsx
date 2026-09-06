@@ -1,36 +1,104 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
-
-const patterns = [
-  {
-    id: 1,
-    key: "elegantDress",
-    image: "/images/patterns/img1.webp",
-  },
-  {
-    id: 2,
-    key: "classicBlouse",
-    image: "/images/patterns/img2.webp",
-  },
-  {
-    id: 3,
-    key: "summerSkirt",
-    image: "/images/patterns/img3.jpg",
-  },
-  {
-    id: 4,
-    key: "oversizedShirt",
-    image: "/images/patterns/img4.webp",
-  },
-];
+import { useTranslations, useLocale } from "next-intl";
+import { patterns } from "@/data/patterns";
 
 export default function FeaturedPatterns() {
   const t = useTranslations("FeaturedPatterns");
+  const locale = useLocale();
 
   return (
-    <section className="bg-white px-5 py-16 sm:px-8 lg:px-10 lg:py-20">
+    <section className="bg-white px-5 py-7 sm:px-8 lg:px-10 lg:py-10">
       <div className="mx-auto max-w-7xl">
+
+
+        {/* ================= STATS ================= */}
+        <div className="mx-auto mb-5 w-full max-w-4xl">
+          <div className="grid grid-cols-3 overflow-hidden rounded-2xl border border-[#eadfe1] bg-white">
+
+            {/* Stat 1 */}
+            <div className="flex flex-col items-center justify-center px-3 py-5 text-center sm:py-6">
+              <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-full bg-[#fff0f5] text-[#a4486d]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.7"
+                  className="h-5 w-5"
+                >
+                  <rect
+                    x="6"
+                    y="3"
+                    width="12"
+                    height="18"
+                    rx="1.5"
+                  />
+                  <path d="M9 7h6M9 11h6M9 15h4" />
+                </svg>
+              </div>
+
+              <p className="text-2xl font-semibold leading-none text-[#a4486d] sm:text-3xl">
+                300+
+              </p>
+
+              <p className="mt-1.5 text-xs text-[#776d70] sm:text-sm">
+                {t("stats.patterns")}
+              </p>
+            </div>
+
+            {/* Stat 2 */}
+            <div className="flex flex-col items-center justify-center border-x border-[#eadfe1] px-3 py-5 text-center sm:py-6">
+              <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-full bg-[#fff0f5] text-[#a4486d]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.7"
+                  className="h-5 w-5"
+                >
+                  <path d="M12 4v16M5 8h14M5 16h14" />
+                </svg>
+              </div>
+
+              <p className="text-2xl font-semibold leading-none text-[#a4486d] sm:text-3xl">
+                50+
+              </p>
+
+              <p className="mt-1.5 text-xs text-[#776d70] sm:text-sm">
+                {t("stats.freePatterns")}
+              </p>
+            </div>
+
+            {/* Stat 3 */}
+            <div className="flex flex-col items-center justify-center px-3 py-5 text-center sm:py-6">
+              <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-full bg-[#fff0f5] text-[#a4486d]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.7"
+                  className="h-5 w-5"
+                >
+                  <circle cx="12" cy="8" r="3" />
+                  <path d="M5 20c.8-3.2 3.1-5 7-5s6.2 1.8 7 5" />
+                </svg>
+              </div>
+
+              <p className="text-2xl font-semibold leading-none text-[#a4486d] sm:text-3xl">
+                1,000+
+              </p>
+
+              <p className="mt-1.5 text-xs text-[#776d70] sm:text-sm">
+                {t("stats.makers")}
+              </p>
+            </div>
+
+          </div>
+        </div>
+
 
         {/* Section heading */}
         <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
@@ -42,10 +110,6 @@ export default function FeaturedPatterns() {
             <h2 className="mt-2 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
               {t("title")}
             </h2>
-
-            <p className="mt-3 max-w-xl text-sm leading-6 text-gray-600 sm:text-base">
-              {t("description")}
-            </p>
           </div>
 
           <Link
@@ -65,7 +129,7 @@ export default function FeaturedPatterns() {
           {patterns.map((pattern) => (
             <Link
               key={pattern.id}
-              href={`/patterns/${pattern.id}`}
+              href={`/${locale}/patterns/${pattern.id}`}
               className="group"
             >
               {/* Image */}

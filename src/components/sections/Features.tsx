@@ -6,11 +6,11 @@ export default function Features() {
   const t = useTranslations("Features");
 
   return (
-    <section className="px-5 py-16 sm:px-8 md:py-20 lg:px-10 lg:py-24">
+    <section className="px-5 py-10 sm:px-8 sm:py-12 lg:px-10 lg:py-14">
       <div className="mx-auto max-w-7xl">
 
         {/* ================= SECTION HEADING ================= */}
-        <div className="mx-auto mb-10 max-w-2xl text-center md:mb-14">
+        <div className="mx-auto mb-10 max-w-2xl text-center md:mb-12">
 
           {/* Badge */}
           <span className="mb-3 inline-flex items-center rounded-full border border-[#e7ccd7] bg-[#fff9fb] px-3.5 py-1.5 text-xs font-medium text-[#9d496b]">
@@ -51,12 +51,10 @@ export default function Features() {
               </div>
             </div>
 
-            {/* Title */}
             <h3 className="text-lg font-semibold text-[#292525] sm:text-xl">
               {t("perfectFit.title")}
             </h3>
 
-            {/* Description */}
             <p className="mt-3 text-sm leading-6 text-[#776d70]">
               {t("perfectFit.description")}
             </p>
@@ -83,12 +81,10 @@ export default function Features() {
               </div>
             </div>
 
-            {/* Title */}
             <h3 className="text-lg font-semibold text-[#292525] sm:text-xl">
               {t("a4a0.title")}
             </h3>
 
-            {/* Description */}
             <p className="mt-3 text-sm leading-6 text-[#776d70]">
               {t("a4a0.description")}
             </p>
@@ -116,12 +112,10 @@ export default function Features() {
               </div>
             </div>
 
-            {/* Title */}
             <h3 className="text-lg font-semibold text-[#292525] sm:text-xl">
               {t("easyToSew.title")}
             </h3>
 
-            {/* Description */}
             <p className="mt-3 text-sm leading-6 text-[#776d70]">
               {t("easyToSew.description")}
             </p>

@@ -16,12 +16,7 @@
     "highlight": "Get a pattern that fits you",
     "description": "Discover a collection of free and premium sewing patterns designed to make your sewing journey easier.",
     "browsePatterns": "Browse Patterns",
-    "howItWorks": "How It Works?",
-    "stats": {
-      "patterns": "Patterns",
-      "freePatterns": "Free Patterns",
-      "makers": "Makers"
-    }
+    "howItWorks": "How It Works?"
   },
   "Features": {
     "badge": "Why Pattify",
@@ -40,61 +35,132 @@
       "description": "Clear pattern layouts and simple instructions help you turn your ideas into beautiful garments."
     }
   },
-      "Footer": {
-        "description": "Beautiful sewing patterns for every maker. Create, sew and bring your ideas to life.",
-    
-        "explore": "Explore",
-        "allPatterns": "All Patterns",
-        "freePatterns": "Free Patterns",
-        "newPatterns": "New Patterns",
-        "collections": "Collections",
-    
-        "help": "Help",
-        "howItWorks": "How It Works",
-        "faq": "FAQ",
-        "contactUs": "Contact Us",
-        "support": "Support",
-    
-        "stayInspired": "Stay Inspired",
-        "newsletterDescription": "Get new patterns, sewing tips and inspiration in your inbox.",
-        "emailPlaceholder": "Your email address",
-        "subscribe": "Subscribe",
-    
-        "privacyPolicy": "Privacy Policy",
-        "termsOfUse": "Terms of Use",
-    
-        "copyright": "All rights reserved."
-  },
-  
-    "FeaturedPatterns": {
-      "label": "Pattify Collection",
-      "title": "Featured Patterns",
-      "description": "Discover our favorite sewing patterns and find your next creative project.",
-      "viewAll": "View all patterns",
-      "viewPattern": "View Pattern",
-  
-      "patterns": {
-        "elegantDress": {
-          "name": "Elegant Dress",
-          "category": "Dresses",
-          "price": "Free"
-        },
-        "classicBlouse": {
-          "name": "Classic Blouse",
-          "category": "Tops",
-          "price": "$5"
-        },
-        "summerSkirt": {
-          "name": "Summer Skirt",
-          "category": "Skirts",
-          "price": "$4"
-        },
-        "oversizedShirt": {
-          "name": "Oversized Shirt",
-          "category": "Tops",
-          "price": "$6"
-        }
+  "FeaturedPatterns": {
+    "label": "Pattify Collection",
+    "title": "Featured Patterns",
+    "description": "Discover our favorite sewing patterns and find your next creative project.",
+    "viewAll": "View all patterns",
+    "viewPattern": "View Pattern",
+    "stats": {
+      "patterns": "Patterns",
+      "freePatterns": "Free Patterns",
+      "makers": "Makers"
+    },
+    "patterns": {
+      "elegantDress": {
+        "name": "Elegant Dress",
+        "category": "Dresses",
+        "price": "Free"
+      },
+      "classicBlouse": {
+        "name": "Classic Blouse",
+        "category": "Tops",
+        "price": "$5"
+      },
+      "summerSkirt": {
+        "name": "Summer Skirt",
+        "category": "Skirts",
+        "price": "$4"
+      },
+      "oversizedShirt": {
+        "name": "Oversized Shirt",
+        "category": "Tops",
+        "price": "$6"
       }
     }
-  
+  },
+  "PatternPage": {
+    "label": "Sewing Pattern",
+    "customize": "Customize your pattern",
+    "chooseOptions": "Choose your options",
+    "breadcrumb": {
+      "patterns": "Patterns"
+    },
+    "size": {
+      "title": "Choose Size",
+      "guide": "Size Guide"
+    },
+    "format": {
+      "title": "Choose Format"
+    },
+    "information": {
+      "title": "Pattern Information",
+      "difficulty": "Difficulty",
+      "fileType": "File type",
+      "pages": "Pages",
+      "seamAllowance": "Seam allowance",
+      "included": "Included",
+      "notIncluded": "Not included"
+    },
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate"
+    },
+    "selected": {
+      "size": "Size",
+      "format": "Format"
+    },
+    "price": "Price",
+    "free": "Free",
+    "download": "Download Pattern",
+    "buy": "Buy Pattern",
+    "selectedNotice": "Your selected size and format will be included in the PDF.",
+    "zoom": {
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out"
+    },
+    "preview": {
+      "patternAlt": "sewing pattern preview"
+    },
+    "notFound": {
+      "title": "Pattern not found",
+      "description": "The pattern you are looking for does not exist."
+    },
+    "patterns": {
+      "elegantDress": {
+        "name": "Elegant Dress",
+        "category": "Dresses",
+        "description": "A beautiful and elegant dress pattern designed for comfortable and stylish everyday wear.",
+        "price": "Free"
+      },
+      "classicBlouse": {
+        "name": "Classic Blouse",
+        "category": "Tops",
+        "description": "A timeless classic blouse pattern with a clean silhouette and elegant details.",
+        "price": "$5"
+      },
+      "summerSkirt": {
+        "name": "Summer Skirt",
+        "category": "Skirts",
+        "description": "A lightweight summer skirt pattern that is simple to sew and perfect for warm days.",
+        "price": "$4"
+      },
+      "oversizedShirt": {
+        "name": "Oversized Shirt",
+        "category": "Tops",
+        "description": "A modern oversized shirt pattern with a relaxed fit and comfortable silhouette.",
+        "price": "$6"
+      }
+    }
+  },
+  "Footer": {
+    "description": "Beautiful sewing patterns for every maker. Create, sew and bring your ideas to life.",
+    "explore": "Explore",
+    "allPatterns": "All Patterns",
+    "freePatterns": "Free Patterns",
+    "newPatterns": "New Patterns",
+    "collections": "Collections",
+    "help": "Help",
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "contactUs": "Contact Us",
+    "support": "Support",
+    "stayInspired": "Stay Inspired",
+    "newsletterDescription": "Get new patterns, sewing tips and inspiration in your inbox.",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "copyright": "All rights reserved."
+  }
 }
