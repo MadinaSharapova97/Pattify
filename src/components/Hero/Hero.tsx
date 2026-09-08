@@ -1,7 +1,8 @@
 "use client";
 
-import Link from "next/link";
+// import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function Hero() {
   const t = useTranslations("Hero");
@@ -114,7 +115,7 @@ export default function Hero() {
               BADGE
           ========================== */}
 
-          <div
+          <Link href={"/patterns"}
             className="
               inline-flex
               items-center
@@ -177,7 +178,7 @@ export default function Hero() {
             >
               {t("badge")}
             </span>
-          </div>
+          </Link>
 
           {/* =========================
               TITLE

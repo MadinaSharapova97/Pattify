@@ -18,6 +18,57 @@
     "browsePatterns": "Browse Patterns",
     "howItWorks": "How It Works?"
   },
+
+
+    "PatternLibrary": {
+      "eyebrow": "Pattern Library",
+      "title": "Sewing Patterns for Every Maker",
+      "description": "Explore our collection of printable sewing patterns, from timeless classics to modern everyday styles.",
+      "search": "Search patterns...",
+      "free": "Free",
+      "viewPattern": "View Pattern",
+      "results": "{count} patterns",
+  
+      "categories": {
+        "All": "All",
+        "Dresses": "Dresses",
+        "Tops": "Tops",
+        "Skirts": "Skirts"
+      },
+  
+      "filters": {
+        "all": "All",
+        "price": "Price",
+        "free": "Free",
+        "paid": "Paid"
+      },
+  
+      "empty": {
+        "title": "No patterns found",
+        "description": "Try changing your search or filters to find what you're looking for.",
+        "reset": "Clear Filters"
+      },
+  
+      "patterns": {
+        "elegantDress": {
+          "name": "Elegant Dress",
+          "description": "A timeless dress pattern with a clean and elegant silhouette."
+        },
+        "classicBlouse": {
+          "name": "Classic Blouse",
+          "description": "A versatile classic blouse pattern for everyday and formal looks."
+        },
+        "summerSkirt": {
+          "name": "Summer Skirt",
+          "description": "A lightweight skirt pattern designed for comfortable summer outfits."
+        },
+        "oversizedShirt": {
+          "name": "Oversized Shirt",
+          "description": "A relaxed oversized shirt pattern with a modern casual silhouette."
+        }
+      }
+    },
+
   "Features": {
     "badge": "Why Pattify",
     "title": "Everything you need to start sewing",

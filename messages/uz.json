@@ -18,6 +18,58 @@
     "browsePatterns": "Andozalarni ko‘rish",
     "howItWorks": "Qanday ishlaydi?"
   },
+
+  
+    "PatternLibrary": {
+      "eyebrow": "Andozalar kutubxonasi",
+      "title": "Har bir tikuvchi uchun andozalar",
+      "description": "Klassik modellardan tortib zamonaviy kundalik uslublargacha bo‘lgan chop etishga tayyor andozalar to‘plamimizni kashf eting.",
+      "search": "Andozalarni qidirish...",
+      "free": "Bepul",
+      "viewPattern": "Andozani ko‘rish",
+      "results": "{count} ta andoza",
+  
+      "categories": {
+        "All": "Barchasi",
+        "Dresses": "Ko‘ylaklar",
+        "Tops": "Bluzkalar",
+        "Skirts": "Yubkalar"
+      },
+  
+      "filters": {
+        "all": "Barchasi",
+        "price": "Narx",
+        "free": "Bepul",
+        "paid": "Pullik"
+      },
+  
+      "empty": {
+        "title": "Andozalar topilmadi",
+        "description": "Qidiruv so‘rovi yoki filtrlarni o‘zgartirib ko‘ring.",
+        "reset": "Filtrlarni tozalash"
+      },
+  
+      "patterns": {
+        "elegantDress": {
+          "name": "Elegant ko‘ylak",
+          "description": "Sodda va nafis siluetga ega klassik ko‘ylak andozasi."
+        },
+        "classicBlouse": {
+          "name": "Klassik bluzka",
+          "description": "Kundalik va bayramona obrazlar uchun mos universal klassik bluzka andozasi."
+        },
+        "summerSkirt": {
+          "name": "Yozgi yubka",
+          "description": "Qulay yozgi kiyimlar yaratish uchun mo‘ljallangan yengil yubka andozasi."
+        },
+        "oversizedShirt": {
+          "name": "Oversized ko‘ylak",
+          "description": "Zamonaviy kundalik uslubdagi keng va erkin bichimli ko‘ylak andozasi."
+        }
+      }
+    },
+
+
   "Features": {
     "badge": "Nega Pattify?",
     "title": "Tikishni boshlash uchun kerak bo‘lgan hamma narsa",

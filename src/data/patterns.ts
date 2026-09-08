@@ -2,6 +2,7 @@ export const patterns = [
     {
       id: 1,
       key: "elegantDress",
+      category: "Dresses",
       image: "/images/patterns/img1.webp",
       patternImage: "/images/patterns/pattern1.jpg",
       difficulty:"beginner",
@@ -11,6 +12,7 @@ export const patterns = [
     {
       id: 2,
       key: "classicBlouse",
+      category: "Tops",
       image: "/images/patterns/img2.webp",
       patternImage: "/images/patterns/pattern2.jpg",
       difficulty:"intermediate",
@@ -20,6 +22,7 @@ export const patterns = [
     {
       id: 3,
       key: "summerSkirt",
+      category: "Skirts",
       image: "/images/patterns/img3.jpg",
       patternImage: "/images/patterns/pattern3.jpg",
       difficulty:"advanced",
@@ -29,6 +32,7 @@ export const patterns = [
     {
       id: 4,
       key: "oversizedShirt",
+      category: "Tops",
       image: "/images/patterns/img4.webp",
       patternImage: "/images/patterns/pattern4.jpg",
       difficulty:"intermediate",
