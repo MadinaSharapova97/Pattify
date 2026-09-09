@@ -10,73 +10,90 @@
     "signIn": "Kirish",
     "signUp": "Ro‘yxatdan o‘tish"
   },
+
   "Hero": {
     "badge": "Andozalar kutubxonasi",
-    "title": "Sevimli uslubingizni tanlang,",
-    "highlight": "sizga mos andozani toping",
-    "description": "Tikuvchilikni yanada osonlashtirish uchun yaratilgan bepul va premium andozalar to‘plamini kashf eting.",
+    "title": "O‘zingizga yoqqan uslubni tanlang,",
+    "highlight": "o‘zingizga mos andozani oling",
+    "description": "Tikuvchilik jarayonini osonlashtirish uchun yaratilgan bepul va premium andozalar to‘plamini kashf eting.",
     "browsePatterns": "Andozalarni ko‘rish",
-    "howItWorks": "Qanday ishlaydi?"
+    "howItWorks": "Bu qanday ishlaydi?"
   },
 
-  
-    "PatternLibrary": {
-      "eyebrow": "Andozalar kutubxonasi",
-      "title": "Har bir tikuvchi uchun andozalar",
-      "description": "Klassik modellardan tortib zamonaviy kundalik uslublargacha bo‘lgan chop etishga tayyor andozalar to‘plamimizni kashf eting.",
-      "search": "Andozalarni qidirish...",
-      "free": "Bepul",
-      "viewPattern": "Andozani ko‘rish",
-      "results": "{count} ta andoza",
-  
-      "categories": {
-        "All": "Barchasi",
-        "Dresses": "Ko‘ylaklar",
-        "Tops": "Bluzkalar",
-        "Skirts": "Yubkalar"
-      },
-  
-      "filters": {
-        "all": "Barchasi",
-        "price": "Narx",
-        "free": "Bepul",
-        "paid": "Pullik"
-      },
-  
-      "empty": {
-        "title": "Andozalar topilmadi",
-        "description": "Qidiruv so‘rovi yoki filtrlarni o‘zgartirib ko‘ring.",
-        "reset": "Filtrlarni tozalash"
-      },
-  
-      "patterns": {
-        "elegantDress": {
-          "name": "Elegant ko‘ylak",
-          "description": "Sodda va nafis siluetga ega klassik ko‘ylak andozasi."
-        },
-        "classicBlouse": {
-          "name": "Klassik bluzka",
-          "description": "Kundalik va bayramona obrazlar uchun mos universal klassik bluzka andozasi."
-        },
-        "summerSkirt": {
-          "name": "Yozgi yubka",
-          "description": "Qulay yozgi kiyimlar yaratish uchun mo‘ljallangan yengil yubka andozasi."
-        },
-        "oversizedShirt": {
-          "name": "Oversized ko‘ylak",
-          "description": "Zamonaviy kundalik uslubdagi keng va erkin bichimli ko‘ylak andozasi."
-        }
-      }
+  "PatternLibrary": {
+    "eyebrow": "Andozalar kutubxonasi",
+    "title": "Har bir tikuvchi uchun andozalar",
+    "description": "Klassik modellardan zamonaviy kundalik kiyimlargacha bo‘lgan chop etishga tayyor andozalar to‘plamimizni kashf eting.",
+    "search": "Andozalarni qidirish...",
+    "free": "Bepul",
+    "viewPattern": "Andozani ko‘rish",
+    "results": "{count} ta andoza",
+
+    "categories": {
+      "All": "Barchasi",
+      "Dresses": "Ko‘ylaklar",
+      "Tops": "Bluzkalar",
+      "Skirts": "Yubkalar",
+      "Pants": "Shimlar",
+      "Outerwear": "Ustki kiyimlar"
     },
 
+    "filters": {
+      "all": "Barchasi",
+      "price": "Narx",
+      "free": "Bepul",
+      "paid": "Pullik"
+    },
+
+    "empty": {
+      "title": "Andozalar topilmadi",
+      "description": "Qidiruv yoki filtrlarni o‘zgartirib ko‘ring.",
+      "reset": "Filtrlarni tozalash"
+    },
+
+    "patterns": {
+      "elegantDress": {
+        "name": "Elegant ko‘ylak",
+        "description": "Toza va nafis siluetga ega klassik ko‘ylak andozasi."
+      },
+      "classicBlouse": {
+        "name": "Klassik bluzka",
+        "description": "Kundalik va rasmiy obrazlar uchun mos keladigan universal klassik bluzka andozasi."
+      },
+      "summerSkirt": {
+        "name": "Yozgi yubka",
+        "description": "Qulay yozgi kiyimlar uchun mo‘ljallangan yengil yubka andozasi."
+      },
+      "oversizedShirt": {
+        "name": "Oversized ko‘ylak",
+        "description": "Zamonaviy kundalik uslubdagi erkin va qulay oversized ko‘ylak andozasi."
+      },
+      "wrapDress": {
+        "name": "Zapashli ko‘ylak",
+        "description": "Qulay va chiroyli tushishga ega nafis zapashli ko‘ylak andozasi."
+      },
+      "puffSleeveTop": {
+        "name": "Puf yengli bluzka",
+        "description": "Chiroyli puf yenglar va qulay bichimga ega nafis bluzka andozasi."
+      },
+      "wideLegPants": {
+        "name": "Keng shim",
+        "description": "Erkin va qulay bichimga ega zamonaviy keng shim andozasi."
+      },
+      "croppedJacket": {
+        "name": "Qisqa jaket",
+        "description": "Zamonaviy va strukturalangan siluetga ega qisqa jaket andozasi."
+      }
+    }
+  },
 
   "Features": {
-    "badge": "Nega Pattify?",
-    "title": "Tikishni boshlash uchun kerak bo‘lgan hamma narsa",
-    "description": "Sevimli uslubingizni tanlashdan boshlab andozani chop etishgacha Pattify tikuvchilikni sodda va yoqimli qiladi.",
+    "badge": "Nega Pattify",
+    "title": "Tikishni boshlash uchun kerak bo‘lgan barcha narsa",
+    "description": "Sevimli uslubni tanlashdan tortib andozani chop etishgacha — Pattify tikuvchilikni sodda va yoqimli qiladi.",
     "perfectFit": {
       "title": "Mukammal moslik",
-      "description": "O‘lchovlaringizni kiriting va o‘lchamingizga mos tikuv andozasini oling."
+      "description": "O‘lchamlaringizni kiriting va sizga mos tikuvchilik andozasini oling."
     },
     "a4a0": {
       "title": "A4 va A0 formatlari",
@@ -84,29 +101,32 @@
     },
     "easyToSew": {
       "title": "Tikish oson",
-      "description": "Tushunarli andoza tuzilishi va sodda ko‘rsatmalar g‘oyalaringizni chiroyli kiyimlarga aylantirishga yordam beradi."
+      "description": "Tushunarli andoza joylashuvi va sodda ko‘rsatmalar g‘oyalaringizni chiroyli kiyimlarga aylantirishga yordam beradi."
     }
   },
+
   "FeaturedPatterns": {
     "label": "Pattify kolleksiyasi",
     "title": "Tanlangan andozalar",
-    "description": "Sevimli tikuv andozalarimizni kashf eting va keyingi ijodiy loyihangiz uchun ilhom toping.",
+    "description": "Sevimli andozalarimizni kashf eting va keyingi ijodiy loyihangizni toping.",
     "viewAll": "Barcha andozalarni ko‘rish",
     "viewPattern": "Andozani ko‘rish",
+
     "stats": {
       "patterns": "Andozalar",
       "freePatterns": "Bepul andozalar",
       "makers": "Tikuvchilar"
     },
+
     "patterns": {
       "elegantDress": {
-        "name": "Zarif ko‘ylak",
+        "name": "Elegant ko‘ylak",
         "category": "Ko‘ylaklar",
         "price": "Bepul"
       },
       "classicBlouse": {
         "name": "Klassik bluzka",
-        "category": "Ustki kiyimlar",
+        "category": "Bluzkalar",
         "price": "$5"
       },
       "summerSkirt": {
@@ -115,96 +135,153 @@
         "price": "$4"
       },
       "oversizedShirt": {
-        "name": "Oversize ko‘ylak",
-        "category": "Ustki kiyimlar",
+        "name": "Oversized ko‘ylak",
+        "category": "Bluzkalar",
         "price": "$6"
+      },
+      "wrapDress": {
+        "name": "Zapashli ko‘ylak",
+        "category": "Ko‘ylaklar",
+        "price": "$5"
+      },
+      "puffSleeveTop": {
+        "name": "Puf yengli bluzka",
+        "category": "Bluzkalar",
+        "price": "Bepul"
+      },
+      "wideLegPants": {
+        "name": "Keng shim",
+        "category": "Shimlar",
+        "price": "$6"
+      },
+      "croppedJacket": {
+        "name": "Qisqa jaket",
+        "category": "Ustki kiyimlar",
+        "price": "Bepul"
       }
     }
   },
+
   "PatternPage": {
-    "label": "Tikuv andozasi",
-    "customize": "Andozani sozlash",
+    "label": "Tikuvchilik andozasi",
+    "customize": "Andozangizni sozlang",
     "chooseOptions": "Variantlarni tanlang",
+
     "breadcrumb": {
       "patterns": "Andozalar"
     },
+
     "size": {
       "title": "O‘lchamni tanlang",
       "guide": "O‘lchamlar jadvali"
     },
+
     "format": {
       "title": "Formatni tanlang"
     },
+
     "information": {
       "title": "Andoza haqida",
       "difficulty": "Qiyinlik darajasi",
       "fileType": "Fayl turi",
       "pages": "Sahifalar",
       "seamAllowance": "Chok haqi",
-      "included": "Kiritilgan",
-      "notIncluded": "Kiritilmagan"
+      "included": "Mavjud",
+      "notIncluded": "Mavjud emas"
     },
+
     "difficulty": {
       "beginner": "Boshlang‘ich",
       "intermediate": "O‘rta"
     },
+
     "selected": {
       "size": "O‘lcham",
       "format": "Format"
     },
-    "price": "Narxi",
+
+    "price": "Narx",
     "free": "Bepul",
     "download": "Andozani yuklab olish",
     "buy": "Andozani sotib olish",
     "selectedNotice": "Siz tanlagan o‘lcham va format PDF faylga kiritiladi.",
+
     "zoom": {
       "zoomIn": "Kattalashtirish",
       "zoomOut": "Kichraytirish"
     },
+
     "preview": {
-      "patternAlt": "andoza ko‘rinishi"
+      "patternAlt": "tikuvchilik andozasi ko‘rinishi"
     },
+
     "notFound": {
       "title": "Andoza topilmadi",
       "description": "Siz qidirayotgan andoza mavjud emas."
     },
+
     "patterns": {
       "elegantDress": {
         "name": "Elegant ko‘ylak",
         "category": "Ko‘ylaklar",
-        "description": "Kundalik kiyish uchun qulay va zamonaviy elegant ko‘ylak andozasi.",
+        "description": "Kundalik foydalanish uchun qulay va zamonaviy nafis ko‘ylak andozasi.",
         "price": "Bepul"
       },
       "classicBlouse": {
         "name": "Klassik bluzka",
         "category": "Bluzkalar",
-        "description": "Toza siluet va nafis detallar bilan yaratilgan klassik bluzka andozasi.",
+        "description": "Toza siluet va nafis detallarga ega klassik bluzka andozasi.",
         "price": "$5"
       },
       "summerSkirt": {
         "name": "Yozgi yubka",
         "category": "Yubkalar",
-        "description": "Issiq kunlar uchun mos, tikilishi oson va yengil yozgi yubka andozasi.",
+        "description": "Tikish oson bo‘lgan va issiq kunlar uchun juda mos yengil yozgi yubka andozasi.",
         "price": "$4"
       },
       "oversizedShirt": {
         "name": "Oversized ko‘ylak",
-        "category": "Ko‘ylaklar",
-        "description": "Zamonaviy va keng bichimli oversized ko‘ylak andozasi.",
+        "category": "Bluzkalar",
+        "description": "Erkin va qulay bichimga ega zamonaviy oversized ko‘ylak andozasi.",
         "price": "$6"
+      },
+      "wrapDress": {
+        "name": "Zapashli ko‘ylak",
+        "category": "Ko‘ylaklar",
+        "description": "Chiroyli va qulay tushishga ega nafis zapashli ko‘ylak andozasi.",
+        "price": "$5"
+      },
+      "puffSleeveTop": {
+        "name": "Puf yengli bluzka",
+        "category": "Bluzkalar",
+        "description": "Chiroyli puf yenglar va qulay bichimga ega ayollar bluzkasi andozasi.",
+        "price": "Bepul"
+      },
+      "wideLegPants": {
+        "name": "Keng shim",
+        "category": "Shimlar",
+        "description": "Erkin va qulay bichimga ega zamonaviy keng shim andozasi.",
+        "price": "$6"
+      },
+      "croppedJacket": {
+        "name": "Qisqa jaket",
+        "category": "Ustki kiyimlar",
+        "description": "Zamonaviy, chiroyli va strukturalangan siluetga ega qisqa jaket andozasi.",
+        "price": "Bepul"
       }
     }
   },
+
   "Footer": {
-    "description": "Har bir tikuvchiga mos chiroyli andozalar. Yaratish, tikish va g‘oyalaringizni hayotga tatbiq eting.",
-    "explore": "Kashf eting",
+    "description": "Har bir tikuvchi uchun chiroyli andozalar. Yarat­ing, tiking va g‘oyalaringizni hayotga tatbiq eting.",
+    "explore": "Kashf etish",
     "allPatterns": "Barcha andozalar",
     "freePatterns": "Bepul andozalar",
     "newPatterns": "Yangi andozalar",
-    "collections": "To‘plamlar",
+    "collections": "Kolleksiyalar",
     "help": "Yordam",
     "howItWorks": "Qanday ishlaydi",
-    "faq": "Ko‘p beriladigan savollar",
+    "faq": "FAQ",
     "contactUs": "Biz bilan bog‘lanish",
     "support": "Qo‘llab-quvvatlash",
     "stayInspired": "Ilhomlanib turing",

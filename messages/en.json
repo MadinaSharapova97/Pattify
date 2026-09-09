@@ -10,6 +10,7 @@
     "signIn": "Sign In",
     "signUp": "Sign Up"
   },
+
   "Hero": {
     "badge": "Pattern Library",
     "title": "Choose your favorite style,",
@@ -19,55 +20,72 @@
     "howItWorks": "How It Works?"
   },
 
+  "PatternLibrary": {
+    "eyebrow": "Pattern Library",
+    "title": "Sewing Patterns for Every Maker",
+    "description": "Explore our collection of printable sewing patterns, from timeless classics to modern everyday styles.",
+    "search": "Search patterns...",
+    "free": "Free",
+    "viewPattern": "View Pattern",
+    "results": "{count} patterns",
 
-    "PatternLibrary": {
-      "eyebrow": "Pattern Library",
-      "title": "Sewing Patterns for Every Maker",
-      "description": "Explore our collection of printable sewing patterns, from timeless classics to modern everyday styles.",
-      "search": "Search patterns...",
-      "free": "Free",
-      "viewPattern": "View Pattern",
-      "results": "{count} patterns",
-  
-      "categories": {
-        "All": "All",
-        "Dresses": "Dresses",
-        "Tops": "Tops",
-        "Skirts": "Skirts"
-      },
-  
-      "filters": {
-        "all": "All",
-        "price": "Price",
-        "free": "Free",
-        "paid": "Paid"
-      },
-  
-      "empty": {
-        "title": "No patterns found",
-        "description": "Try changing your search or filters to find what you're looking for.",
-        "reset": "Clear Filters"
-      },
-  
-      "patterns": {
-        "elegantDress": {
-          "name": "Elegant Dress",
-          "description": "A timeless dress pattern with a clean and elegant silhouette."
-        },
-        "classicBlouse": {
-          "name": "Classic Blouse",
-          "description": "A versatile classic blouse pattern for everyday and formal looks."
-        },
-        "summerSkirt": {
-          "name": "Summer Skirt",
-          "description": "A lightweight skirt pattern designed for comfortable summer outfits."
-        },
-        "oversizedShirt": {
-          "name": "Oversized Shirt",
-          "description": "A relaxed oversized shirt pattern with a modern casual silhouette."
-        }
-      }
+    "categories": {
+      "All": "All",
+      "Dresses": "Dresses",
+      "Tops": "Tops",
+      "Skirts": "Skirts",
+      "Pants": "Pants",
+      "Outerwear": "Outerwear"
     },
+
+    "filters": {
+      "all": "All",
+      "price": "Price",
+      "free": "Free",
+      "paid": "Paid"
+    },
+
+    "empty": {
+      "title": "No patterns found",
+      "description": "Try changing your search or filters to find what you're looking for.",
+      "reset": "Clear Filters"
+    },
+
+    "patterns": {
+      "elegantDress": {
+        "name": "Elegant Dress",
+        "description": "A timeless dress pattern with a clean and elegant silhouette."
+      },
+      "classicBlouse": {
+        "name": "Classic Blouse",
+        "description": "A versatile classic blouse pattern for everyday and formal looks."
+      },
+      "summerSkirt": {
+        "name": "Summer Skirt",
+        "description": "A lightweight skirt pattern designed for comfortable summer outfits."
+      },
+      "oversizedShirt": {
+        "name": "Oversized Shirt",
+        "description": "A relaxed oversized shirt pattern with a modern casual silhouette."
+      },
+      "wrapDress": {
+        "name": "Wrap Dress",
+        "description": "An elegant wrap dress pattern with a flattering and comfortable fit."
+      },
+      "puffSleeveTop": {
+        "name": "Puff Sleeve Top",
+        "description": "A feminine top pattern featuring beautiful puff sleeves and a comfortable fit."
+      },
+      "wideLegPants": {
+        "name": "Wide Leg Pants",
+        "description": "A stylish wide leg pants pattern designed for a relaxed and comfortable fit."
+      },
+      "croppedJacket": {
+        "name": "Cropped Jacket",
+        "description": "A modern cropped jacket pattern with a stylish and structured silhouette."
+      }
+    }
+  },
 
   "Features": {
     "badge": "Why Pattify",
@@ -86,17 +104,20 @@
       "description": "Clear pattern layouts and simple instructions help you turn your ideas into beautiful garments."
     }
   },
+
   "FeaturedPatterns": {
     "label": "Pattify Collection",
     "title": "Featured Patterns",
     "description": "Discover our favorite sewing patterns and find your next creative project.",
     "viewAll": "View all patterns",
     "viewPattern": "View Pattern",
+
     "stats": {
       "patterns": "Patterns",
       "freePatterns": "Free Patterns",
       "makers": "Makers"
     },
+
     "patterns": {
       "elegantDress": {
         "name": "Elegant Dress",
@@ -117,23 +138,48 @@
         "name": "Oversized Shirt",
         "category": "Tops",
         "price": "$6"
+      },
+      "wrapDress": {
+        "name": "Wrap Dress",
+        "category": "Dresses",
+        "price": "$5"
+      },
+      "puffSleeveTop": {
+        "name": "Puff Sleeve Top",
+        "category": "Tops",
+        "price": "Free"
+      },
+      "wideLegPants": {
+        "name": "Wide Leg Pants",
+        "category": "Pants",
+        "price": "$6"
+      },
+      "croppedJacket": {
+        "name": "Cropped Jacket",
+        "category": "Outerwear",
+        "price": "Free"
       }
     }
   },
+
   "PatternPage": {
     "label": "Sewing Pattern",
     "customize": "Customize your pattern",
     "chooseOptions": "Choose your options",
+
     "breadcrumb": {
       "patterns": "Patterns"
     },
+
     "size": {
       "title": "Choose Size",
       "guide": "Size Guide"
     },
+
     "format": {
       "title": "Choose Format"
     },
+
     "information": {
       "title": "Pattern Information",
       "difficulty": "Difficulty",
@@ -143,30 +189,37 @@
       "included": "Included",
       "notIncluded": "Not included"
     },
+
     "difficulty": {
       "beginner": "Beginner",
       "intermediate": "Intermediate"
     },
+
     "selected": {
       "size": "Size",
       "format": "Format"
     },
+
     "price": "Price",
     "free": "Free",
     "download": "Download Pattern",
     "buy": "Buy Pattern",
     "selectedNotice": "Your selected size and format will be included in the PDF.",
+
     "zoom": {
       "zoomIn": "Zoom in",
       "zoomOut": "Zoom out"
     },
+
     "preview": {
       "patternAlt": "sewing pattern preview"
     },
+
     "notFound": {
       "title": "Pattern not found",
       "description": "The pattern you are looking for does not exist."
     },
+
     "patterns": {
       "elegantDress": {
         "name": "Elegant Dress",
@@ -191,9 +244,34 @@
         "category": "Tops",
         "description": "A modern oversized shirt pattern with a relaxed fit and comfortable silhouette.",
         "price": "$6"
+      },
+      "wrapDress": {
+        "name": "Wrap Dress",
+        "category": "Dresses",
+        "description": "An elegant wrap dress pattern with a flattering and comfortable fit.",
+        "price": "$5"
+      },
+      "puffSleeveTop": {
+        "name": "Puff Sleeve Top",
+        "category": "Tops",
+        "description": "A feminine top pattern featuring beautiful puff sleeves and a comfortable fit.",
+        "price": "Free"
+      },
+      "wideLegPants": {
+        "name": "Wide Leg Pants",
+        "category": "Pants",
+        "description": "A stylish wide leg pants pattern designed for a relaxed and comfortable fit.",
+        "price": "$6"
+      },
+      "croppedJacket": {
+        "name": "Cropped Jacket",
+        "category": "Outerwear",
+        "description": "A modern cropped jacket pattern with a stylish and structured silhouette.",
+        "price": "Free"
       }
     }
   },
+
   "Footer": {
     "description": "Beautiful sewing patterns for every maker. Create, sew and bring your ideas to life.",
     "explore": "Explore",
