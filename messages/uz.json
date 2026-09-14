@@ -95,6 +95,11 @@
       "title": "Mukammal moslik",
       "description": "O‘lchamlaringizni kiriting va sizga mos tikuvchilik andozasini oling."
     },
+    "stats": {
+      "patterns": "Andozalar",
+      "freePatterns": "Bepul andozalar",
+      "makers": "Tikuvchilar"
+    },
     "a4a0": {
       "title": "A4 va A0 formatlari",
       "description": "Andozangizni A4 yoki A0 formatida yuklab oling va darhol tikishni boshlang."
@@ -111,12 +116,6 @@
     "description": "Sevimli andozalarimizni kashf eting va keyingi ijodiy loyihangizni toping.",
     "viewAll": "Barcha andozalarni ko‘rish",
     "viewPattern": "Andozani ko‘rish",
-
-    "stats": {
-      "patterns": "Andozalar",
-      "freePatterns": "Bepul andozalar",
-      "makers": "Tikuvchilar"
-    },
 
     "patterns": {
       "elegantDress": {
