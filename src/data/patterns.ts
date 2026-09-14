@@ -5,7 +5,7 @@ export const patterns = [
     category: "Dresses",
     price: 0,
     image: "/images/patterns/img1.webp",
-    patternImage: "/images/patterns/pattern1.jpg",
+    patternImage: "/images/patterns/pattern1.webp",
   },
   {
     id: 2,
@@ -13,15 +13,15 @@ export const patterns = [
     category: "Tops",
     price: 5,
     image: "/images/patterns/img2.webp",
-    patternImage: "/images/patterns/pattern2.jpg",
+    patternImage: "/images/patterns/pattern2.webp",
   },
   {
     id: 3,
     key: "summerSkirt",
     category: "Skirts",
     price: 4,
-    image: "/images/patterns/img3.jpg",
-    patternImage: "/images/patterns/pattern3.jpg",
+    image: "/images/patterns/img3.webp",
+    patternImage: "/images/patterns/pattern3.webp",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const patterns = [
     category: "Tops",
     price: 6,
     image: "/images/patterns/img4.webp",
-    patternImage: "/images/patterns/pattern4.jpg",
+    patternImage: "/images/patterns/pattern4.webp",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const patterns = [
     category: "Dresses",
     price: 5,
     image: "/images/patterns/img5.webp",
-    patternImage: "/images/patterns/pattern5.jpg",
+    patternImage: "/images/patterns/pattern5.webp",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const patterns = [
     category: "Tops",
     price: 0,
     image: "/images/patterns/img6.webp",
-    patternImage: "/images/patterns/pattern6.jpg",
+    patternImage: "/images/patterns/pattern6.webp",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const patterns = [
     category: "Pants",
     price: 6,
     image: "/images/patterns/img7.webp",
-    patternImage: "/images/patterns/pattern6.jpg",
+    patternImage: "/images/patterns/pattern6.webp",
   },
   {
     id: 8,
@@ -61,6 +61,6 @@ export const patterns = [
     category: "Outerwear",
     price: 0,
     image: "/images/patterns/img8.webp",
-    patternImage: "/images/patterns/pattern6.jpg",
+    patternImage: "/images/patterns/pattern6.webp",
   },
 ];

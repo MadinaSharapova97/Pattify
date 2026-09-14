@@ -95,6 +95,11 @@
       "title": "Perfect Fit",
       "description": "Enter your measurements and get a sewing pattern designed to fit your size."
     },
+    "stats": {
+      "patterns": "Patterns",
+      "freePatterns": "Free Patterns",
+      "makers": "Makers"
+    },
     "a4a0": {
       "title": "A4 & A0 Ready",
       "description": "Download your pattern in printable A4 or A0 format and get started right away."
@@ -111,12 +116,6 @@
     "description": "Discover our favorite sewing patterns and find your next creative project.",
     "viewAll": "View all patterns",
     "viewPattern": "View Pattern",
-
-    "stats": {
-      "patterns": "Patterns",
-      "freePatterns": "Free Patterns",
-      "makers": "Makers"
-    },
 
     "patterns": {
       "elegantDress": {
