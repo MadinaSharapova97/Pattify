@@ -9,19 +9,19 @@ const messages = {
   en,
   ru,
   uz,
-};
+} as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {
-  const requested = await requestLocale;
+  const requestedLocale = await requestLocale;
 
   const locale = routing.locales.includes(
-    requested as (typeof routing.locales)[number]
+    requestedLocale as (typeof routing.locales)[number]
   )
-    ? requested
+    ? (requestedLocale as (typeof routing.locales)[number])
     : routing.defaultLocale;
 
   return {
     locale,
-    messages: messages[locale as keyof typeof messages],
+    messages: messages[locale],
   };
 });
