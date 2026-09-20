@@ -1,6 +1,6 @@
+
 "use client";
 
-// import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
@@ -10,63 +10,40 @@ export default function Hero() {
   return (
     <section
       className="
-        relative
-        isolate
-        overflow-hidden
+        relative isolate overflow-hidden
         bg-[#fcf9f7]
-        bg-[url('/images/hero/heroImg.webp')]
+        bg-[url('/images/hero/heroBackground.webp')]
         bg-no-repeat
-
-        /* =========================
-           MOBILE — 320px
-        ========================== */
 
         min-h-[calc(100svh-60px)]
         bg-[position:center_center]
         bg-[length:auto_100%]
 
-        /* =========================
-           375px
-        ========================== */
-
-        min-[375px]:bg-[length:auto_100%]
-
-        /* =========================
-           425px
-        ========================== */
-
-        min-[425px]:bg-[length:auto_100%]
-
-        /* =========================
-           TABLET — 768px
-        ========================== */
-
-        md:min-h-[calc(100svh-60px)]
         md:bg-[length:auto_100%]
-        md:bg-[position:center_center]
 
-        /* =========================
-           DESKTOP
-        ========================== */
-
-        lg:min-h-[calc(100svh-60px)]
         lg:bg-[length:100%_auto]
         lg:bg-[position:center_center]
       "
     >
       {/* =========================
-          VERY SOFT OVERLAY
+          SOFT OVERLAY
       ========================== */}
 
-      <div
-        className="
-          pointer-events-none
-          absolute
-          inset-0
-          -z-10
-          bg-[#fcf9f7]/10
-        "
-      />
+<div
+  className="
+    pointer-events-none
+    absolute inset-0 -z-10
+
+    bg-gradient-to-r
+    from-[#ded5d1]/100
+    via-[#e7dfdb]/85
+    to-[#fcf9f7]/30
+
+    md:from-[#ded5d1]/95
+    md:via-[#e7dfdb]/70
+    md:to-[#fcf9f7]/20
+  "
+/>
 
       {/* =========================
           MAIN CONTENT
@@ -74,19 +51,17 @@ export default function Hero() {
 
       <div
         className="
-          relative
-          z-10
-          mx-auto
-          flex
-          min-h-[calc(100svh-60px)]
-          w-full
+          relative z-10
+          mx-auto flex w-full
           max-w-[1536px]
+
+          min-h-[calc(100svh-60px)]
+
           flex-col
           items-center
           justify-center
 
-          px-4
-          py-10
+          px-4 py-10
 
           min-[375px]:px-5
           min-[375px]:py-12
@@ -97,44 +72,43 @@ export default function Hero() {
           md:px-8
           md:py-16
 
-          lg:px-10
+          lg:items-start
+          lg:justify-center
+          lg:px-16
           lg:py-20
+
+          xl:px-24
         "
       >
         <div
           className="
-            flex
-            w-full
-            max-w-[900px]
+            flex w-full max-w-[900px]
             flex-col
+
             items-center
             text-center
+
+            lg:items-start
+            lg:text-left
           "
         >
           {/* =========================
               BADGE
           ========================== */}
 
-          <Link href={"/patterns"}
+          <Link
+            href="/patterns"
             className="
-              inline-flex
-              items-center
-              gap-1.5
-              rounded-full
-              border
-              border-[#e5c4d0]
+              inline-flex items-center gap-2
+              rounded-full border border-[#e5c4d0]
               bg-[#fffaf9]/90
-              px-3
-              py-1.5
-              backdrop-blur-[2px]
+              px-4 py-2
+              backdrop-blur-[3px]
+              transition-all duration-200
+              hover:border-[#a4486d]
+              hover:bg-white
 
-              min-[375px]:gap-2
-              min-[375px]:px-4
-
-              min-[425px]:px-5
-              min-[425px]:py-2
-
-              md:px-5
+              lg:px-5
             "
           >
             <svg
@@ -143,18 +117,7 @@ export default function Hero() {
               fill="none"
               stroke="currentColor"
               strokeWidth="1.7"
-              className="
-                h-4
-                w-4
-                shrink-0
-                text-[#a4486d]
-
-                min-[375px]:h-[18px]
-                min-[375px]:w-[18px]
-
-                min-[425px]:h-5
-                min-[425px]:w-5
-              "
+              className="h-4 w-4 shrink-0 text-[#a4486d] md:h-5 md:w-5"
             >
               <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z" />
               <path d="M4 5.5v16" />
@@ -164,15 +127,9 @@ export default function Hero() {
 
             <span
               className="
-                text-[9px]
-                font-semibold
+                text-[10px] font-semibold
                 tracking-[0.08em]
                 text-[#984565]
-
-                min-[375px]:text-[10px]
-
-                min-[425px]:text-xs
-
                 md:text-sm
               "
             >
@@ -186,21 +143,16 @@ export default function Hero() {
 
           <h1
             className="
-              mt-5
-              w-full
-              max-w-[310px]
+              mt-5 w-full
+              max-w-[350px]
               font-serif
-              text-[29px]
+              text-[32px]
               font-medium
               leading-[1.08]
               tracking-[-0.035em]
               text-[#292525]
 
-              min-[375px]:mt-6
-              min-[375px]:max-w-[350px]
-              min-[375px]:text-[32px]
-
-              min-[425px]:max-w-[400px]
+              min-[425px]:max-w-[420px]
               min-[425px]:text-[36px]
 
               md:mt-7
@@ -208,16 +160,17 @@ export default function Hero() {
               md:text-[46px]
 
               lg:mt-8
-              lg:max-w-[900px]
-              lg:text-[52px]
-          "
+              lg:max-w-[650px]
+              lg:text-[40px]
+
+              xl:text-[45px]
+            "
           >
             {t("title")}
 
             <span
               className="
-                mt-1
-                block
+                mt-1 block
                 text-[#a4486d]
 
                 min-[425px]:mt-2
@@ -233,12 +186,7 @@ export default function Hero() {
 
           <div
             className="
-              mt-5
-              w-full
-              max-w-[300px]
-
-              min-[375px]:mt-6
-              min-[375px]:max-w-[350px]
+              mt-5 w-full max-w-[350px]
 
               min-[425px]:max-w-[410px]
 
@@ -246,16 +194,14 @@ export default function Hero() {
               md:max-w-[600px]
 
               lg:mt-8
-              lg:max-w-[650px]
-            "
+              lg:max-w-[560px]
+          "
           >
             <p
               className="
-                text-[12px]
+                text-[13px]
                 leading-[1.7]
                 text-[#74686a]
-
-                min-[375px]:text-[13px]
 
                 min-[425px]:text-[14px]
 
@@ -275,56 +221,34 @@ export default function Hero() {
 
           <div
             className="
-              mt-6
-              flex
-              flex-wrap
-              items-center
-              justify-center
-              gap-2.5
-
-              min-[375px]:mt-7
-              min-[375px]:gap-3
+              mt-6 flex flex-wrap
+              items-center justify-center
+              gap-3
 
               min-[425px]:mt-8
 
               md:mt-9
 
-              lg:mt-9
+              lg:justify-start
             "
           >
-            {/* =====================
-                BROWSE PATTERNS
-            ====================== */}
+            {/* BROWSE PATTERNS */}
 
             <Link
               href="/patterns"
               className="
-                inline-flex
-                items-center
-                justify-center
-                gap-1.5
+                inline-flex items-center
+                justify-center gap-2
                 rounded-xl
                 bg-[#a4486d]
-                font-semibold
+                px-5 py-3
+                text-xs font-semibold
                 text-white
                 shadow-[0_8px_25px_rgba(164,72,109,0.15)]
-                transition-all
-                duration-200
+                transition-all duration-200
                 hover:-translate-y-0.5
                 hover:bg-[#8f3d5d]
 
-                max-[374px]:w-full
-                max-[374px]:max-w-[220px]
-
-                px-4
-                py-2.5
-                text-[11px]
-
-                min-[375px]:px-5
-                min-[375px]:py-3
-                min-[375px]:text-xs
-
-                min-[425px]:gap-2
                 min-[425px]:px-6
                 min-[425px]:py-3.5
                 min-[425px]:text-sm
@@ -338,16 +262,7 @@ export default function Hero() {
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="1.8"
-                className="
-                  h-3.5
-                  w-3.5
-
-                  min-[375px]:h-4
-                  min-[375px]:w-4
-
-                  min-[425px]:h-5
-                  min-[425px]:w-5
-                "
+                className="h-4 w-4 md:h-5 md:w-5"
               >
                 <rect x="4" y="4" width="6" height="6" rx="1" />
                 <rect x="14" y="4" width="6" height="6" rx="1" />
@@ -358,40 +273,23 @@ export default function Hero() {
               <span>{t("browsePatterns")}</span>
             </Link>
 
-            {/* =====================
-                HOW IT WORKS
-            ====================== */}
+            {/* HOW IT WORKS */}
 
             <Link
               href="/how-it-works"
               className="
-                inline-flex
-                items-center
-                justify-center
-                gap-1.5
+                inline-flex items-center
+                justify-center gap-2
                 rounded-xl
-                border
-                border-[#cfaebc]
+                border border-[#cfaebc]
                 bg-white/80
-                font-semibold
+                px-5 py-3
+                text-xs font-semibold
                 text-[#a4486d]
                 backdrop-blur-[2px]
-                transition-all
-                duration-200
+                transition-all duration-200
                 hover:border-[#a4486d]
                 hover:bg-white
-
-                max-[374px]:w-full
-                max-[374px]:max-w-[220px]
-
-                px-4
-                py-2.5
-                text-[11px]
-
-                min-[375px]:gap-2
-                min-[375px]:px-5
-                min-[375px]:py-3
-                min-[375px]:text-xs
 
                 min-[425px]:gap-3
                 min-[425px]:px-6
@@ -405,17 +303,10 @@ export default function Hero() {
 
               <span
                 className="
-                  flex
-                  h-4
-                  w-4
-                  items-center
-                  justify-center
+                  flex h-5 w-5
+                  items-center justify-center
                   rounded-full
-                  border
-                  border-[#cfaebc]
-
-                  min-[375px]:h-5
-                  min-[375px]:w-5
+                  border border-[#cfaebc]
 
                   min-[425px]:h-6
                   min-[425px]:w-6
@@ -427,16 +318,7 @@ export default function Hero() {
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="1.8"
-                  className="
-                    h-2.5
-                    w-2.5
-
-                    min-[375px]:h-3
-                    min-[375px]:w-3
-
-                    min-[425px]:h-3.5
-                    min-[425px]:w-3.5
-                  "
+                  className="h-3 w-3 md:h-3.5 md:w-3.5"
                 >
                   <path d="m9 6 6 6-6 6" />
                 </svg>

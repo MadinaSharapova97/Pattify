@@ -8,6 +8,8 @@ import { patterns } from "@/data/patterns";
 
 const sizes = ["XS", "S", "M", "L", "XL", "XXL", "XXXL"];
 
+type PatternFormat = "A4" | "A0";
+
 export default function PatternPage() {
   const params = useParams();
   const t = useTranslations("PatternPage");
@@ -17,6 +19,10 @@ export default function PatternPage() {
   const pattern = patterns.find((item) => item.id === id);
 
   const [selectedSize, setSelectedSize] = useState("M");
+
+  // Format
+  const [selectedFormat, setSelectedFormat] =
+    useState<PatternFormat>("A4");
 
   // Zoom
   const [zoom, setZoom] = useState(100);
@@ -61,13 +67,14 @@ export default function PatternPage() {
 
   const handleDownload = () => {
     if (!isFree) return;
-  
-    const fileUrl = `/patterns/${pattern.id}/pattern.pdf`;
-  
+
+    const fileUrl = `/patterns/${pattern.id}/pattern-${selectedFormat}.pdf`;
+
     const link = document.createElement("a");
+
     link.href = fileUrl;
-    link.download = `${pattern.key}-A4.pdf`;
-  
+    link.download = `${pattern.key}-${selectedFormat}.pdf`;
+
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -81,6 +88,7 @@ export default function PatternPage() {
     console.log({
       patternId: pattern.id,
       size: selectedSize,
+      format: selectedFormat,
       price: pattern.price,
     });
   };
@@ -117,7 +125,9 @@ export default function PatternPage() {
                     <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-[#faf6f4]">
                       <Image
                         src={pattern.image}
-                        alt={t(`patterns.${pattern.key}.name`)}
+                        alt={t(
+                          `patterns.${pattern.key}.name`
+                        )}
                         fill
                         sizes="128px"
                         className="object-cover"
@@ -183,6 +193,7 @@ export default function PatternPage() {
                   >
                     +
                   </button>
+
                 </div>
               </div>
 
@@ -250,28 +261,83 @@ export default function PatternPage() {
                     Формат выкройки
                   </h3>
 
-                  {/* A4 ONLY */}
+                  {/* FORMAT OPTIONS */}
 
-                  <div className="flex w-full items-center justify-between rounded-xl border border-[#9d496b] bg-[#fdf5f7] p-4">
+                  <div className="grid grid-cols-2 gap-3">
 
-                    <div className="flex items-center gap-3">
+                    {/* A4 */}
 
-                      <span className="flex h-5 w-5 items-center justify-center rounded-full border border-[#9d496b]">
-                        <span className="h-2.5 w-2.5 rounded-full bg-[#9d496b]" />
+                    <button
+                      type="button"
+                      onClick={() => setSelectedFormat("A4")}
+                      className={`flex w-full items-center justify-between rounded-xl border p-4 transition ${
+                        selectedFormat === "A4"
+                          ? "border-[#9d496b] bg-[#fdf5f7]"
+                          : "border-[#e5d9d4] bg-white hover:border-[#9d496b]"
+                      }`}
+                    >
+                      <div className="flex items-center gap-3">
+
+                        <span
+                          className={`flex h-5 w-5 items-center justify-center rounded-full border ${
+                            selectedFormat === "A4"
+                              ? "border-[#9d496b]"
+                              : "border-gray-300"
+                          }`}
+                        >
+                          {selectedFormat === "A4" && (
+                            <span className="h-2.5 w-2.5 rounded-full bg-[#9d496b]" />
+                          )}
+                        </span>
+
+                        <span className="font-medium text-gray-800">
+                          A4
+                        </span>
+
+                      </div>
+
+                      <span className="text-xs text-gray-500">
+                        PDF
                       </span>
+                    </button>
 
-                      <span className="font-medium text-gray-800">
-                        A4
+                    {/* A0 */}
+
+                    <button
+                      type="button"
+                      onClick={() => setSelectedFormat("A0")}
+                      className={`flex w-full items-center justify-between rounded-xl border p-4 transition ${
+                        selectedFormat === "A0"
+                          ? "border-[#9d496b] bg-[#fdf5f7]"
+                          : "border-[#e5d9d4] bg-white hover:border-[#9d496b]"
+                      }`}
+                    >
+                      <div className="flex items-center gap-3">
+
+                        <span
+                          className={`flex h-5 w-5 items-center justify-center rounded-full border ${
+                            selectedFormat === "A0"
+                              ? "border-[#9d496b]"
+                              : "border-gray-300"
+                          }`}
+                        >
+                          {selectedFormat === "A0" && (
+                            <span className="h-2.5 w-2.5 rounded-full bg-[#9d496b]" />
+                          )}
+                        </span>
+
+                        <span className="font-medium text-gray-800">
+                          A0
+                        </span>
+
+                      </div>
+
+                      <span className="text-xs text-gray-500">
+                        PDF
                       </span>
-
-                    </div>
-
-                    <span className="text-xs text-gray-500">
-                      PDF
-                    </span>
+                    </button>
 
                   </div>
-
                 </div>
 
                 {/* =========================
@@ -300,7 +366,7 @@ export default function PatternPage() {
                     </span>{" "}
 
                     <span className="font-semibold text-gray-800">
-                      A4
+                      {selectedFormat}
                     </span>
                   </div>
 
@@ -340,7 +406,7 @@ export default function PatternPage() {
                       onClick={handleDownload}
                       className="w-full rounded-xl bg-[#9d496b] px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-[#873d5d] active:scale-[0.99]"
                     >
-                      {t("download")}
+                      {t("download")} {selectedFormat}
                     </button>
                   ) : (
                     <button
